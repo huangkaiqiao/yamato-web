@@ -25,8 +25,8 @@ defineProps({
 #home{
     color: $th-color;
     // color: red;
-    background: #EDEBDF;
-    border: 1px solid #5C0D12;
+    // background: #EDEBDF;
+    // border: 1px solid #5C0D12;
     text-align: justify;
     min-width: 740px;
     max-width: 1200px;

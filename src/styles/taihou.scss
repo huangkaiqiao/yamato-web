@@ -1,12 +1,20 @@
 
+body {
+    font-size: 8pt;
+    font-family: arial,helvetica,sans-serif;
+    color: $th-color;
+    text-align: center;
+}
 .category {
     user-select: none;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
-    height: 24px;
-    line-height: 24px;
+    // height: 24px;
+    // line-height: 24px;
+    height: 35px;
+    line-height: 35px;
     font-size: 9pt;
     border-radius: 0.1875rem;
     color: #f1f1f1;
@@ -16,6 +24,9 @@
     letter-spacing: 1px;
     font-weight: bold;
     cursor: pointer;
+}
+.category:hover {
+    opacity: 0.8;
 }
 .ct0 {
     background: radial-gradient(#707070, #9e9e9e);
@@ -56,4 +67,18 @@
 .ct9 {
     background: radial-gradient(#5dc13b, #14e723);
     border: 1px solid #5dc13b;
+}
+.star45{
+
+    height:20px;
+    width: 80px;
+    background:160px 20px  url(/@/assets/star.png);
+}
+.th-td{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: #ffffff;
+    border-color: #f26553;
+    border-width: 2px;
+    word-break: break-all;
 }
